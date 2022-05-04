@@ -1,0 +1,54 @@
+main .main__projects {
+  width: 90%;
+  max-width: 684px;
+  margin: 0 auto;
+  margin-top: 34px;
+}
+
+.main__skills .skills__knowledge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  max-width: 766px;
+  margin: 48px auto;
+}
+.skills__knowledge .knowledge__icon--html {
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  display: block;
+  background: url("../assets/img/HTML_LOGO.svg") center/cover no-repeat;
+}
+.skills__knowledge .knowledge__icon--css {
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  display: block;
+  background: url("../assets/img/CSS_LOGO.svg") center/cover no-repeat;
+}
+.skills__knowledge .knowledge__icon--js {
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  display: block;
+  background: url("../assets/img/JS_LOGO.svg") center/cover no-repeat;
+}
+.skills__knowledge .knowledge__icon--git {
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  display: block;
+  background: url("../assets/img/GIT_LOGO.svg") center/cover no-repeat;
+}
+.infocontent__item {
+  width: 100%;
+}
+/*ABOUT ME*/
+.main__aboutme .aboutme__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
