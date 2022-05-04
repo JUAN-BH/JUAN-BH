@@ -116,7 +116,6 @@ project6_btn.addEventListener("click", () => {
 
 arrow_back.forEach((element) => {
   element.addEventListener("click", (e) => {
-    console.log(e);
     main__projects.style.display = "flex";
     main__project.style.display = "none";
 

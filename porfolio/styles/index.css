@@ -55,9 +55,6 @@ header {
   display: inline-block;
   background: url("../assets/icons/LinkedIn_icon.svg") center/cover no-repeat;
 }
-.socialMedia__icon--linkedin span:hover {
-  fill: #1a9af7;
-}
 .socialMedia__icon--GitHub span {
   width: 22px;
   height: 22px;
@@ -78,7 +75,7 @@ header {
   background-color: #c3c3c3;
 }
 .header_navbar .navbar--btn {
-  width: 90px;
+  width: 92px;
   height: 46px;
   cursor: pointer;
   padding: 14px;
@@ -238,7 +235,7 @@ main .main__project {
   display: flex;
   justify-content: space-between;
 }
-.projectItem__buttons button {
+.projectItem__buttons a {
   width: 91px;
   padding: 5px 24px;
   cursor: pointer;
@@ -248,8 +245,10 @@ main .main__project {
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.4rem;
+  text-decoration: none;
+  color: black;
 }
-.projectItem__buttons button:hover {
+.projectItem__buttons a:hover {
   background-color: #1a9af7;
   color: #fff;
 }
