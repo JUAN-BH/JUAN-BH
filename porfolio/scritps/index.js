@@ -8,7 +8,7 @@ const project2_btn = document.querySelector("#project2_btn");
 const project3_btn = document.querySelector("#project3_btn");
 const project4_btn = document.querySelector("#project4_btn");
 const project5_btn = document.querySelector("#project5_btn");
-const project6_btn = document.querySelector("#project6_btn");
+// const project6_btn = document.querySelector("#project6_btn");
 
 const arrow_back = Array.from(document.querySelectorAll(".arrow_back"));
 //*Sections
@@ -56,7 +56,7 @@ project1_btn.addEventListener("click", () => {
   projectInfo3.style.display = "none";
   projectInfo4.style.display = "none";
   projectInfo5.style.display = "none";
-  projectInfo6.style.display = "none";
+  // projectInfo6.style.display = "none";
 });
 project2_btn.addEventListener("click", () => {
   main__project.style.display = "block";
@@ -67,7 +67,7 @@ project2_btn.addEventListener("click", () => {
   projectInfo3.style.display = "none";
   projectInfo4.style.display = "none";
   projectInfo5.style.display = "none";
-  projectInfo6.style.display = "none";
+  // projectInfo6.style.display = "none";
 });
 project3_btn.addEventListener("click", () => {
   main__project.style.display = "block";
@@ -78,7 +78,7 @@ project3_btn.addEventListener("click", () => {
   projectInfo3.style.display = "flex";
   projectInfo4.style.display = "none";
   projectInfo5.style.display = "none";
-  projectInfo6.style.display = "none";
+  // projectInfo6.style.display = "none";
 });
 project4_btn.addEventListener("click", () => {
   main__project.style.display = "block";
@@ -89,7 +89,7 @@ project4_btn.addEventListener("click", () => {
   projectInfo3.style.display = "none";
   projectInfo4.style.display = "flex";
   projectInfo5.style.display = "none";
-  projectInfo6.style.display = "none";
+  // projectInfo6.style.display = "none";
 });
 project5_btn.addEventListener("click", () => {
   main__project.style.display = "block";
@@ -100,22 +100,24 @@ project5_btn.addEventListener("click", () => {
   projectInfo3.style.display = "none";
   projectInfo4.style.display = "none";
   projectInfo5.style.display = "flex";
-  projectInfo6.style.display = "none";
+  // projectInfo6.style.display = "none";
 });
-project6_btn.addEventListener("click", () => {
-  main__project.style.display = "block";
-  main__projects.style.display = "none";
+// project6_btn.addEventListener("click", () => {
+//   main__project.style.display = "block";
+//   main__projects.style.display = "none";
 
-  projectInfo1.style.display = "none";
-  projectInfo2.style.display = "none";
-  projectInfo3.style.display = "none";
-  projectInfo4.style.display = "none";
-  projectInfo5.style.display = "none";
-  projectInfo6.style.display = "flex";
-});
+//   projectInfo1.style.display = "none";
+//   projectInfo2.style.display = "none";
+//   projectInfo3.style.display = "none";
+//   projectInfo4.style.display = "none";
+//   projectInfo5.style.display = "none";
+//   projectInfo6.style.display = "flex";
+// });
 
 arrow_back.forEach((element) => {
   element.addEventListener("click", (e) => {
+    console.log(e);
+
     main__projects.style.display = "flex";
     main__project.style.display = "none";
 
