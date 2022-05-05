@@ -130,6 +130,7 @@ main .main__projects {
   bottom: 20px;
   opacity: 0;
   transition: all 0.2s ease;
+  color: #fff;
 }
 .projectItem__info h2 {
   font-size: 1.4rem;
@@ -164,11 +165,11 @@ main .main__projects {
   top: 0px;
   width: 100%;
   height: 100%;
-  opacity: 0.1;
+  opacity: 18%;
   transition: all 0.2s ease;
 }
 .projects--projectItem:hover .projectItem__blur {
-  background-color: #201e1c;
+  background-color: #1a9af7;
 }
 .projects--projectItem:hover .projectItem__info {
   opacity: 1;
@@ -197,7 +198,28 @@ main .main__project {
   background-color: #c3c3c3;
   border-radius: 8px;
 }
+.project--batatabit {
+  background: url("../assets/img/batata_back.PNG") center/cover no-repeat;
+}
+.project--playstation {
+  background: url("../assets/img/playstation_back.PNG") center/cover no-repeat;
+}
+.project--escuelaMusical {
+  background: url("../assets/img/Escuela_back.PNG") center/cover no-repeat;
+}
+.project--loudRiot {
+  background: url("../assets/img/Loud_Riot_back.PNG") center/cover no-repeat;
+}
+.project--wikipedia {
+  background: url("../assets/img/wikipedia_back.PNG") center/cover no-repeat;
+}
 .project__projectItem .projectItem__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 2.9rem;
+  margin-bottom: 22px;
+}
+.project__projectItem .projectItem__subtitle {
   width: 90%;
   min-width: 284px;
   max-width: 376px;
@@ -206,15 +228,15 @@ main .main__project {
   justify-content: flex-start;
   align-items: center;
 }
-.projectItem__title a {
-  width: 29px;
-  height: 29px;
+.projectItem__subtitle a {
+  width: 22px;
+  height: 22px;
   margin-right: 12px;
   cursor: pointer;
   display: block;
   background: url("../assets/icons/BackArrow_icon.svg") center/contain no-repeat;
 }
-.projectItem__title h2 {
+.projectItem__subtitle h2 {
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.9rem;
@@ -237,11 +259,12 @@ main .main__project {
 }
 .projectItem__buttons a {
   width: 91px;
-  padding: 5px 24px;
+  padding: 8px;
   cursor: pointer;
   border: none;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+  text-align: center;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.4rem;

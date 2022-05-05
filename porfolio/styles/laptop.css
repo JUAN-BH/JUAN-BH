@@ -4,7 +4,28 @@ main .main__projects {
   margin: 0 auto;
   margin-top: 34px;
 }
-
+.main__projects .projects--projectItem {
+  width: 90%;
+  min-width: 284px;
+  max-width: 324px;
+  height: 194px;
+}
+.project__projectItem .projectItem {
+  max-width: 486px;
+  min-height: 228px;
+  max-height: 258px;
+}
+.projectItem__info h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+}
+.projectItem__info h3 {
+  margin: 8px auto;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+}
 /*ABOUT ME*/
 .main__aboutme .aboutme__container {
   width: 70%;
