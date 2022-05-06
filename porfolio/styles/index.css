@@ -25,10 +25,11 @@ header {
 .header__mainInformation .header__imgPorfile {
   width: 140px;
   height: 140px;
-  background-color: #c3c3c3;
-  border-radius: 50%;
-  border: 1px solid #1a9af7;
   margin-top: 58px;
+  border-radius: 50%;
+  background: url("../assets/img/photo.jpg") center/cover no-repeat;
+  background-color: #c3c3c3;
+  border: 1px solid #1a9af7;
 }
 .header__mainInformation .mainInformation__title {
   margin: 16px auto;
@@ -72,7 +73,7 @@ header {
   height: 64px;
   margin-top: 22px;
   border-radius: 8px;
-  background-color: #c3c3c3;
+  background-color: #d8d8d8;
 }
 .header_navbar .navbar--btn {
   width: 92px;
@@ -166,13 +167,16 @@ main .main__projects {
   top: 0px;
   width: 100%;
   height: 100%;
-  opacity: 18%;
+  opacity: 12%;
   transition: all 0.2s ease;
 }
 .projects--projectItem:hover .projectItem__blur {
   background-color: #1a9af7;
 }
 .projects--projectItem:hover .projectItem__info {
+  opacity: 1;
+}
+.projects--projectItem:focus .projectItem__info {
   opacity: 1;
 }
 /*Projects*/
