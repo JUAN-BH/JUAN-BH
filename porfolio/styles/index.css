@@ -106,7 +106,7 @@ main {
 /*Projects*/
 main .main__projects {
   width: 100%;
-  margin-top: 34px;
+  margin: 34px 0px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -285,7 +285,7 @@ main .main__project {
 /*Skills*/
 main .main__skills {
   width: 100%;
-  margin-top: 34px;
+  margin: 34px 0px;
   text-align: center;
 
   display: none;
@@ -361,8 +361,7 @@ main .main__skills {
 main .main__aboutme {
   width: 100%;
   text-align: center;
-  margin-top: 34px;
-
+  margin: 34px 0px;
   display: none;
 }
 .main__aboutme .aboutme__title {
