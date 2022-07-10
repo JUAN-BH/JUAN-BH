@@ -218,6 +218,9 @@ main .main__project {
 .project--wikipedia {
   background: url("../assets/img/wikipedia_back.PNG") center/cover no-repeat;
 }
+.project--catAPI {
+  background: url("../assets/img/catAPI.PNG") center/cover no-repeat;
+}
 .project__projectItem .projectItem__title {
   font-size: 2.5rem;
   font-weight: bold;

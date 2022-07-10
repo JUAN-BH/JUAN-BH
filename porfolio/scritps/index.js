@@ -8,7 +8,8 @@ const project2_btn = document.querySelector("#project2_btn");
 const project3_btn = document.querySelector("#project3_btn");
 const project4_btn = document.querySelector("#project4_btn");
 const project5_btn = document.querySelector("#project5_btn");
-// const project6_btn = document.querySelector("#project6_btn");
+const project6_btn = document.querySelector("#project6_btn");
+// const project7_btn = document.querySelector("#project7_btn");
 
 const arrow_back = Array.from(document.querySelectorAll(".arrow_back"));
 //*Sections
@@ -23,6 +24,7 @@ const projectInfo3 = document.querySelector("#projectInfo3");
 const projectInfo4 = document.querySelector("#projectInfo4");
 const projectInfo5 = document.querySelector("#projectInfo5");
 const projectInfo6 = document.querySelector("#projectInfo6");
+// const projectInfo7 = document.querySelector("#projectInfo7");
 
 //*Navigation
 project__btn.addEventListener("click", (e) => {
@@ -102,7 +104,18 @@ project5_btn.addEventListener("click", () => {
   projectInfo5.style.display = "flex";
   // projectInfo6.style.display = "none";
 });
-// project6_btn.addEventListener("click", () => {
+project6_btn.addEventListener("click", () => {
+  main__project.style.display = "block";
+  main__projects.style.display = "none";
+
+  projectInfo1.style.display = "none";
+  projectInfo2.style.display = "none";
+  projectInfo3.style.display = "none";
+  projectInfo4.style.display = "none";
+  projectInfo5.style.display = "none";
+  projectInfo6.style.display = "flex";
+});
+// project7_btn.addEventListener("click", () => {
 //   main__project.style.display = "block";
 //   main__projects.style.display = "none";
 
@@ -111,6 +124,7 @@ project5_btn.addEventListener("click", () => {
 //   projectInfo3.style.display = "none";
 //   projectInfo4.style.display = "none";
 //   projectInfo5.style.display = "none";
+//   projectInfo6.style.display = "none";
 //   projectInfo6.style.display = "flex";
 // });
 
