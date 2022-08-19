@@ -41,6 +41,27 @@ main .main__projects {
   display: block;
   background: url("../assets/img/GIT_LOGO.svg") center/cover no-repeat;
 }
+.skills__knowledge .knowledge__icon--react {
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  display: block;
+  background: url("../assets/icons/react.svg") center/cover no-repeat;
+}
+.skills__knowledge .knowledge__icon--sass {
+  width: 74px;
+  height: 55px;
+  margin: 0 auto;
+  display: block;
+  background: url("../assets/icons/sass.svg") center/cover no-repeat;
+}
+.skills__knowledge .knowledge__icon--typeScript {
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  display: block;
+  background: url("../assets/icons/typescript.svg") center/cover no-repeat;
+}
 .infocontent__item {
   width: 100%;
 }

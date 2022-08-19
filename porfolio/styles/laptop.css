@@ -1,14 +1,14 @@
 main .main__projects {
   width: 90%;
-  max-width: 684px;
+  max-width: 780px;
   margin: 0 auto;
   margin-top: 34px;
 }
 .main__projects .projects--projectItem {
   width: 90%;
   min-width: 284px;
-  max-width: 324px;
-  height: 194px;
+  max-width: 340px;
+  height: 200px;
 }
 .project__projectItem .projectItem {
   max-width: 486px;
@@ -16,7 +16,7 @@ main .main__projects {
   max-height: 258px;
 }
 .projectItem__info h2 {
-  font-size: 1.8rem;
+  font-size: 3rem;
   font-weight: bold;
   line-height: 1.8rem;
 }
