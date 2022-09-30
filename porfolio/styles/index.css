@@ -102,6 +102,12 @@ header {
 main {
   width: 100%;
 }
+.project_solo {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*Projects*/
 main .main__projects {
   width: 100%;
@@ -122,10 +128,7 @@ main .main__projects {
   background-color: #c3c3c3;
   border-radius: 6px;
 
-  /* display: none;  */
   opacity: 0;
-  /* transform: scale(0.9); */
-  /* transition: 0.5s all; */
 }
 /*PROJECTS INFO HOVER*/
 .projectItem__info {
@@ -156,25 +159,13 @@ main .main__projects {
   width: 200px;
   margin-top: 16px;
 }
-.HTML {
+.technology {
   display: block;
   width: 35px;
   height: 35px;
-  background: url("../assets/img/HTML_LOGO.svg") center/cover no-repeat;
+  margin-inline: 4px;
 }
-.CSS {
-  display: block;
-  width: 35px;
-  height: 35px;
-  background: url("../assets/img/CSS_LOGO.svg") center/cover no-repeat;
-}
-.JS {
-  display: block;
-  width: 35px;
-  height: 35px;
-  background: url("../assets/img/JS_LOGO.svg") center/cover no-repeat;
-}
-.projectItem__info button {
+.projectItem__info--button {
   width: 91px;
   padding: 4px;
   margin-top: 18px;
@@ -186,8 +177,11 @@ main .main__projects {
   font-weight: 400;
   line-height: 1.4rem;
   transition: all 0.2s;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
 }
-.projectItem__info button:hover {
+.projectItem__info--button:hover {
   background-color: #1a9af7;
   color: #fff;
 }
@@ -225,7 +219,6 @@ main .main__projects {
 main .main__project {
   width: 100%;
   margin-top: 34px;
-  display: none;
 }
 .main__project .project__projectItem {
   width: 100%;
@@ -243,37 +236,6 @@ main .main__project {
   background-color: #c3c3c3;
   border-radius: 8px;
 }
-article.project--batatabit {
-  background: url("../assets/img/batata_back.PNG") center/cover no-repeat;
-  opacity: 1;
-  transform: scale(1);
-}
-article.project--playstation {
-  background: url("../assets/img/playstation_back.PNG") center/cover no-repeat;
-  opacity: 1;
-  transform: scale(1);
-}
-article.project--loudRiot {
-  background: url("../assets/img/Loud_Riot_back.PNG") center/cover no-repeat;
-  opacity: 1;
-  transform: scale(1);
-}
-article.project--wikipedia {
-  background: url("../assets/img/wikipedia_back.PNG") center/cover no-repeat;
-  opacity: 1;
-  transform: scale(1);
-}
-article.project--catAPI {
-  background: url("../assets/img/catAPI.PNG") center/cover no-repeat;
-  opacity: 1;
-  transform: scale(1);
-}
-article.project--theForestTemple {
-  background: url("../assets/img/theForestTemple.PNG") center/cover no-repeat;
-  opacity: 1;
-  transform: scale(1);
-}
-
 .project__projectItem .projectItem__title {
   font-size: 2.5rem;
   font-weight: 500;
@@ -343,8 +305,6 @@ main .main__skills {
   width: 100%;
   margin: 34px 0px;
   text-align: center;
-
-  display: none;
 }
 .main__skills .skills__title {
   font-size: 2.4rem;
@@ -454,7 +414,6 @@ main .main__aboutme {
   width: 100%;
   text-align: center;
   margin: 34px 0px;
-  display: none;
 }
 .main__aboutme .aboutme__title {
   max-width: 452px;
