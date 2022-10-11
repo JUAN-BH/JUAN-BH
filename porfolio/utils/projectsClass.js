@@ -19,7 +19,7 @@ const css = "/porfolio/assets/img/CSS_LOGO.svg";
 const js = "/porfolio/assets/img/JS_LOGO.svg";
 const sass = "/porfolio/assets/img/sass.svg";
 const webpack = "/porfolio/assets/img/webpack.svg";
-// const html = ""
+const react = "/porfolio/assets/icons/react.svg";
 
 const batataProjectxx = new Projects({
   name: "Batatabit",
@@ -97,12 +97,22 @@ const weatherBHCProject = new Projects({
     page: "https://github.com/JUAN-BH/weatherProject",
   },
 });
+const toDoMachineProject = new Projects({
+  name: "To_Do_Machine",
+  imgUrl: "/porfolio/assets/img/toDoMachine.PNG",
+  technologies: [html, js, sass, react],
+  description: `This project was a pratice with react`,
+  links: {
+    github: "https://juan-bh.github.io/ToDoMachine/",
+    page: "https://github.com/JUAN-BH/ToDoMachine",
+  },
+});
 
 export const projectsArr = [
   batataProjectxx,
-  playStationProject,
   loudRiotProject,
   catApiProject,
   theForestTempleProject,
   weatherBHCProject,
+  toDoMachineProject,
 ];
