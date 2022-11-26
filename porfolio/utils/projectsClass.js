@@ -107,6 +107,16 @@ const toDoMachineProject = new Projects({
     page: "https://github.com/JUAN-BH/ToDoMachine",
   },
 });
+const pokedex = new Projects({
+  name: "Pokedex",
+  imgUrl: "/porfolio/assets/img/pokedex.PNG",
+  technologies: [html, js, sass, react],
+  description: `This project was a pratice with react, using react router`,
+  links: {
+    github: "https://juan-bh.github.io/pokedex/",
+    page: "https://github.com/JUAN-BH/pokedex",
+  },
+});
 
 export const projectsArr = [
   batataProjectxx,
@@ -115,4 +125,5 @@ export const projectsArr = [
   theForestTempleProject,
   weatherBHCProject,
   toDoMachineProject,
+  pokedex,
 ];
